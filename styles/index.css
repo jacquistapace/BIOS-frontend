@@ -1,0 +1,50 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo-image {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.login-register-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.primary-button {
+    color: white;
+    background-color: #6341D5;
+    border: none;
+    padding: 12px 32px;
+    font-family: 'inter';
+    border-radius: 5px;
+}
