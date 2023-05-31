@@ -2,6 +2,7 @@
     max-width: 1200px;
     margin: 0 auto;
     height: 100%;
+    margin-bottom: 2rem;
 }
 
 .logo-image {
@@ -98,13 +99,13 @@
     line-height: 19px;
 }
 
-.locations-section {
+.locations-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-top: 2rem;
 }
 
-.location-container {
+.location-section {
     width: 50%;
     display: flex;
     flex-direction: column;
