@@ -79,6 +79,7 @@
 
 .main-content-container {
     display: flex;
+    gap: 2rem;
     justify-content: space-between;
     width: 100%;
 }
@@ -160,4 +161,51 @@
 
 .carousel-button {
     border: none;
+}
+
+.names-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.message-contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 gray;
+}
+
+.m-vertical-sm {
+    margin: 1rem 0px;
+}
+
+.p-xs {
+    padding: 8px;
+}
+
+.border-default {
+    border: 1px solid gray;
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.primary-button:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.country-select {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: rgb(99, 65, 213);
 }
