@@ -1,0 +1,142 @@
+.hide {
+    display: none;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.border-radius-default {
+    border-radius: 5px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.small {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.text-content-default {
+    color: #8C8E96;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin: 1rem 0px;
+}
+
+.primary-button {
+    color: white;
+    background-color: #6341D5;
+    border: none;
+    padding: 12px 32px;
+    font-family: 'inter';
+    border-radius: 5px;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.logo-image {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.login-register-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-content-secondary {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.icon-default {
+    color: black;
+}
+
+.color-primary {
+    color: #6341D5;
+}
+
+.color-secondary {
+    color: gray;
+}
+
+.border-default {
+    border: 1px solid gray;
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.primary-button:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.nav-link:hover {
+    color: rgb(99, 65, 213);
+}
+
+.m-vertical-sm {
+    margin: 1rem 0px;
+}
+
+.p-xs {
+    padding: 8px;
+}
