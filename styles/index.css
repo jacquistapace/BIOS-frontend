@@ -1,15 +1,15 @@
-.main-content-container {
+.primary-content-container {
     display: flex;
     gap: 2rem;
     justify-content: space-between;
     width: 100%;
 }
 
-.main-container {
+.main-content {
     width: 60%;
 }
 
-.aside-container {
+.aside-contact {
     width: 40%;
 }
 
