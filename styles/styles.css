@@ -103,3 +103,7 @@
 .p-xs {
     padding: 8px;
 }
+
+.bold {
+    font-weight: bold;
+}
