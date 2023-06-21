@@ -29,11 +29,12 @@ const setModalInformation = (messageInfo) => {
     document.getElementById('message-modal-email').innerText = messageInfo.email;
     
     const selectedCountryFlag = document.querySelector('.iti__' + messageInfo.country.code);
-    selectedCountryFlag.style.display = 'inline-block';
-    selectedCountryFlag.style.marginRight = '1rem';
+    const clonedCountryFlag = selectedCountryFlag.cloneNode();
+    clonedCountryFlag.style.display = 'inline-block';
+    clonedCountryFlag.style.marginRight = '1rem';
     const messageModalPhoneElement = document.getElementById('message-modal-phone');
     messageModalPhoneElement.innerHTML = '';
-    messageModalPhoneElement.appendChild(selectedCountryFlag);
+    messageModalPhoneElement.appendChild(clonedCountryFlag);
     messageModalPhoneElement.append(`${messageInfo.country.name} - ${messageInfo.phone}`);
     
     document.getElementById('message-modal-message').innerText = messageInfo.message;
